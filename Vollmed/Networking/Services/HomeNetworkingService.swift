@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 protocol HomeServiceable {
     func getAllSpecialists() async throws -> Result<[Specialist]?, RequestError>
 }

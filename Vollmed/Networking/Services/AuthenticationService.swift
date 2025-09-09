@@ -8,6 +8,7 @@
 
 import Foundation
 
+
 protocol AuthenticationServiceable {
     func logout() async -> Result<Bool?, RequestError>
 }
